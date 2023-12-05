@@ -6,7 +6,7 @@ const TransactionList = () => {
       <h3>History</h3>
       <ul className='list'>
         <li className='minus'>
-            Cash <span>-$400</span><button className='delete-btn'></button>
+            Cash <span>-$500</span><button className='delete-btn'></button>
         </li> 
       </ul>
     </div>
