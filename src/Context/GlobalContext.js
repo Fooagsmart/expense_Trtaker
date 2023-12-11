@@ -2,6 +2,11 @@ import React, { createContext, useReducer} from "react";
 
 
 //Initial state
-const InitialState ={
-    
+const initialState ={
+    transactions: [
+        {id: 1, text: Flower, amount: -20},
+        {id: 2, text: Salary, amount: -20},
+        {id: 3, text: Book, amount: -20},
+        {id: 4, text: Camera, amount: 150},
+    ]
 }
