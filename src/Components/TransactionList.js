@@ -11,7 +11,7 @@ const TransactionList = () => {
       <ul className="list">
         {transactions.map((transaction) => (
           <li className="minus">
-            Cash <span>-$500</span>
+            {transaction.text} <span>-$500</span>
             <button className="delete-btn"></button>
           </li>
         ))}
