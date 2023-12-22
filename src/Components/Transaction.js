@@ -5,11 +5,11 @@ export const Transaction = ({ transaction }) => {
 
   return (
     <li className="minus">
-      {transaction.text}{" "}
+      {transaction.text}
       <span>
-        {sign}${transaction.amount}
+        {sign}${Math.abs(transaction.amount)}
       </span>
-      <button className="delete-btn"></button>
+      <button className="delete-btn">x</button>
     </li>
   );
 };
